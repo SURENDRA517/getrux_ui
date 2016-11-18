@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import { Provider } from 'react-redux'
+import router from './config/router'
+import store from './config/store'
 
-class Hello extends Component {
-  render() {
-    alert("tessd")
-    return <h1>Hello</h1>
-  }
-}
-
-render(<Hello/>, document.getElementById('app'));
+render(
+  <Provider store={store}>{router}</Provider>,
+  document.getElementById('app')
+);

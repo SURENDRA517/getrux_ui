@@ -3,7 +3,6 @@ var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
-
 module.exports = {
   entry: [
     'font-awesome-webpack',
@@ -41,7 +40,6 @@ module.exports = {
       }
     ]
   },
-
   devServer: {
     // do not print bundle build stats
     noInfo: true,
@@ -51,10 +49,9 @@ module.exports = {
     inline: true,
     // serve index.html in place of 404 responses to allow HTML5 history
     historyApiFallback: true,
-    port: "9000",
+    port: "8080",
     host: "localhost"
   },
-
   plugins: [
     new webpack.NoErrorsPlugin(),
     new webpack.HotModuleReplacementPlugin(),
