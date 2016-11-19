@@ -1,0 +1,56 @@
+.center-align{
+  margin-top: 18%;
+  vertical-align: 50%;
+}
+
+.login-box{
+    width: 360px;
+    margin: 7% auto;
+}
+
+.register-box {
+    width: 360px;
+    margin: 4% auto;
+}
+
+.login-box-body, .register-box-body {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+    border: 1px solid #eee;
+}
+
+
+.logo-text {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.logo-text span {
+    color: #FFC000;
+    font-weight: bold;
+}
+
+.login-logo a, .register-logo a {
+    color: #444;
+}
+
+a:hover, a:active, a:focus {
+    outline: none;
+    text-decoration: none !important;
+    color: #72afd2;
+}
+
+.login-box-msg, .register-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+.login-logo, .register-logo {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
